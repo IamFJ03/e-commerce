@@ -7,11 +7,11 @@ export default function Navbar() {
 
   const scrollToSection = (id) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
-    setOpen(false); // close menu after clicking
+    setOpen(false);
   };
 
   return (
-    <nav className=" bg-green-950 text-white shadow-md z-50 font-mont">
+    <nav className="text-white shadow-md z-50 font-mont" style={{backgroundColor:"#052E16"}}>
       <div className="flex justify-between items-center px-6 md:px-16 py-3">
         
         <div className="flex items-center relative">
@@ -59,7 +59,8 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       <div
-        className={`md:hidden bg-green-900 transition-all duration-500 overflow-hidden ${
+        style={{backgroundColor:"#14532D"}}
+        className={`md:hidden transition-all duration-500 overflow-hidden ${
           open ? "max-h-60" : "max-h-0"
         }`}
       >

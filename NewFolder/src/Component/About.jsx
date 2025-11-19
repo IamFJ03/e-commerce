@@ -38,7 +38,7 @@ const features = [
 export default function WhyChooseUs() {
   return (
     <section className=" py-20 px-6 md:px-16 lg:px-32 text-center font-mont border-b" style={{backgroundImage:"linear-gradient(to bottom, white, #FFFDEA)"}} id="about">
-      <h2 className="text-4xl font-bold text-green-800 mb-20">
+      <h2 className="text-4xl font-bold mb-20" style={{color:"#166534"}}>
         Why Choose Us ?
       </h2>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-12">
@@ -52,7 +52,7 @@ export default function WhyChooseUs() {
             className="bg-white shadow-md rounded-2xl p-8 hover:shadow-lg transition-shadow duration-300"
           >
             <div className="flex justify-center mb-4">{item.icon}</div>
-            <h3 className="text-lg font-semibold text-green-800 mb-2">
+            <h3 className="text-lg font-semibold mb-2" style={{color:"#166534"}}>
               {item.title}
             </h3>
             <p className="text-gray-700 text-sm">{item.desc}</p>

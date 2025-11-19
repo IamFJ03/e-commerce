@@ -9,20 +9,20 @@ export default function Contact() {
       style={{ backgroundColor: "#FFFDEA" }}
     >
       <div>
-        
-        <p className=" text-3xl md:text-4xl font-semibold pt-10 pb-10 text-green-900 text-center">
-  Contact Us
-</p>
+
+        <p className=" text-3xl md:text-4xl font-semibold pt-10 pb-10 text-center" style={{color:"#166534"}}>
+          Contact Us
+        </p>
 
 
-       
-        <div className=" bg-green-950 text-white rounded-t-3xl py-10 px-6 md:px-16 lg:px-32">
+
+        <div className=" text-white rounded-t-3xl py-10 px-6 md:px-16 lg:px-32" style={{backgroundColor:"#052E16"}}>
           <p className="text-3xl font-semibold text-center md:text-left md:text-4xl mb-10">
             Pure Pops
           </p>
 
           <div className="flex flex-col md:flex-row justify-between gap-10">
-            
+
             <div>
               <p className="text-2xl font-semibold mb-5">Visit Us</p>
               <p className="max-w-xs">

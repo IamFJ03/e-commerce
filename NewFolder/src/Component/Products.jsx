@@ -31,7 +31,7 @@ export default function Products() {
   return (
     <section className=" py-20 font-mont " style={{backgroundImage:"linear-gradient(to bottom, white, #FFFDEA)"}} id="product">
       <div className="text-center mb-16">
-        <h2 className="text-4xl font-bold text-green-900 tracking-wide">
+        <h2 className="text-4xl font-bold  tracking-wide" style={{color: "#14532D"}}>
           Our Products
         </h2>
         <p className="text-gray-600 mt-3 text-lg px-5">
@@ -63,7 +63,7 @@ export default function Products() {
               />
             </div>
             <div className="p-6">
-              <h3 className="text-2xl font-bold text-green-800 mb-3 text-center">
+              <h3 className="text-2xl font-bold  mb-3 text-center" style={{color:"#166534"}}>
                 {item.title}
               </h3>
               <ul className="text-gray-700 space-y-1 text-sm px-5">
