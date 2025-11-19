@@ -23,7 +23,7 @@ export default function App() {
       <About />
       <Contact />
       <div>
-        <img src={whatsapp} className=' h-15 fixed bottom-10 md:right-20 right-5 cursor-pointer' onClick={() => setModal(true)} />
+        <img src={whatsapp} className=' h-15 fixed bottom-10 md:right-10 right-5 cursor-pointer' onClick={() => setModal(true)} />
       </div>
       <div className={`fixed bg-black/60 inset-0 z-10 ${modal ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'} transition-all duration-500`}>
         <div className={`h-90  md:w-120 w-[90%] ml-[5%] mt-65 bg-white rounded md:ml-120 md:mt-45 ${modal ? 'scale-100' : 'scale-0'} transition-all duration-500`}>

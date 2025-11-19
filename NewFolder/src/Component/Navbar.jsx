@@ -16,7 +16,7 @@ export default function Navbar() {
         
         <div className="flex items-center relative">
           <div className="bg-white h-10 w-10 rounded-full mr-2"></div>
-          <img src={Logo} alt="Logo" className="h-14 relative -ml-14 w-full" />
+          <img src={Logo} alt="Logo" className="h-14 relative -ml-14 w-16" />
         </div>
 
         
